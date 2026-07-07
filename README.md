@@ -4,7 +4,9 @@
 
 This is the product/growth-analytics job at a consumer company (Flipkart, Swiggy, CRED, Myntra-tier): funnels and cohorts to find the leak, RFM to find the customers worth keeping, and a **properly-designed A/B test** to prove an intervention works before rolling it out. Built on **805,549 real transactions** (UCI Online Retail II, a UK online retailer, Dec 2009 – Dec 2011, £17.7M revenue, 5,878 customers).
 
-**Stack:** Python (pandas, scikit-learn, scipy, seaborn) · Streamlit (live dashboard) · MySQL · A/B testing
+> **On SaaS metrics:** this is *transactional retail*, not a subscription book, so I don't fake MRR/ARR here. But the engines a SaaS/product team runs on — **cohort retention curves, revenue concentration, RFM/segment value, and experiment design** — are exactly what's built below, on the same methods. The subscription-native metrics (MRR, ARR, revenue churn, LTV) live in the sister project, [customer-churn-consulting](../customer_churn_consulting), where the data actually supports them.
+
+**Stack:** Python (pandas, scikit-learn, scipy, seaborn) · Streamlit (live dashboard) · MySQL · A/B testing · cohort & retention analytics
 
 ## Headline findings
 
