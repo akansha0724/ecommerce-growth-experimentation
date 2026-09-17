@@ -2,6 +2,7 @@
 data/online_retail_clean.csv
 data/online_retail_II.zip
 data/raw/
+data/tableau/retail_sales_lines.csv
 
 __pycache__/
 *.py[cod]

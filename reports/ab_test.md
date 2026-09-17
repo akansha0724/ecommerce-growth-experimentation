@@ -3,14 +3,14 @@
 *Simulated experiment (the dataset has no randomised arms) — but the design, sizing, and analysis are the real workflow.*
 
 ## Design
-- **Unit:** customer · **population:** At-risk RFM segment (**824** available in the data)
+- **Unit:** customer · **population:** At-risk RFM segment (**819** available in the data)
 - **Metric:** 30-day reactivation (made a purchase) — a proportion
 - **H0:** treatment reactivation = control · **H1:** treatment > control
 - **Assumed control rate:** 12% · **MDE:** +4pp · **alpha:** 0.05 · **power:** 0.8
 
 ## Power analysis
 - **Required sample: 1,178 per arm** (2,356 total) to detect a +4pp lift at 80% power.
-- Feasible within the At-risk pool? **no — would need a smaller MDE or a multi-send** (pool 824 vs need 2,356).
+- Feasible within the At-risk pool? **no — would need a smaller MDE or a multi-send** (pool 819 vs need 2,356).
 
 ## Simulated result (true effect +5pp)
 - Control 12.2% vs treatment 15.3% — observed lift **+3.1pp** (95% CI 0.3 to 5.8pp)

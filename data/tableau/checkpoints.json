@@ -1,0 +1,81 @@
+{
+  "rows": 784885,
+  "revenue_gbp": 16810874.29,
+  "orders": 36657,
+  "customers": 5859,
+  "units": 10155785,
+  "aov_gbp": 458.6,
+  "repeat_customer_pct": 72.4,
+  "date_range": [
+    "2009-12-01",
+    "2011-12-09"
+  ],
+  "revenue_by_year_gbp": {
+    "2009": 678770,
+    "2010": 8187572,
+    "2011": 7944533
+  },
+  "peak_month": {
+    "month": "2010-11",
+    "revenue_gbp": 1157039
+  },
+  "countries": 41,
+  "uk_revenue_pct": 82.8,
+  "international": {
+    "revenue_gbp": 2892342,
+    "orders": 3364,
+    "customers": 524
+  },
+  "top_international_gbp": {
+    "EIRE": 595000,
+    "Netherlands": 550930,
+    "Germany": 420399,
+    "France": 332484,
+    "Australia": 168321
+  },
+  "segments": {
+    "Champions": {
+      "customers_pct": 25.3,
+      "revenue_pct": 70.3
+    },
+    "Loyal": {
+      "customers_pct": 20.7,
+      "revenue_pct": 14.5
+    },
+    "At risk": {
+      "customers_pct": 14.0,
+      "revenue_pct": 8.5
+    },
+    "Hibernating": {
+      "customers_pct": 26.0,
+      "revenue_pct": 4.0
+    },
+    "Needs attention": {
+      "customers_pct": 6.5,
+      "revenue_pct": 1.4
+    },
+    "New / promising": {
+      "customers_pct": 7.5,
+      "revenue_pct": 1.3
+    }
+  },
+  "top20pct_customers_revenue_pct": 76.7,
+  "cohort_month1_avg_pct": 20.2,
+  "cohort_month6_avg_pct": 13.5,
+  "first_cohort": {
+    "cohort": "2009-12",
+    "customers": 955,
+    "month1_pct": 35.1,
+    "month12_pct": 37.6
+  },
+  "product_skus": 4612,
+  "top20pct_skus_revenue_pct": 77.9,
+  "top_skus_gbp": {
+    "22423 REGENCY CAKESTAND 3 TIER": 270314,
+    "85123A WHITE HANGING HEART T-LIGHT HOLDER": 238900,
+    "85099B JUMBO BAG RED RETROSPOT": 166628,
+    "84879 ASSORTED COLOUR BIRD ORNAMENT": 124037,
+    "47566 PARTY BUNTING": 102503
+  },
+  "non_product_revenue_pct": 1.4
+}
