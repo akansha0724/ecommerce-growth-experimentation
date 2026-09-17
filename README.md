@@ -4,9 +4,9 @@
 
 This is the product/growth-analytics job at a consumer company (Flipkart, Swiggy, CRED, Myntra-tier): funnels and cohorts to find the leak, RFM to find the customers worth keeping, and a **properly-designed A/B test** to prove an intervention works before rolling it out. Built on **805,549 real transactions** (UCI Online Retail II, a UK online retailer, Dec 2009 – Dec 2011, £17.7M revenue, 5,878 customers).
 
-> **On SaaS metrics:** this is *transactional retail*, not a subscription book, so I don't fake MRR/ARR here. But the engines a SaaS/product team runs on — **cohort retention curves, revenue concentration, RFM/segment value, and experiment design** — are exactly what's built below, on the same methods. The subscription-native metrics (MRR, ARR, revenue churn, LTV) live in the sister project, [customer-churn-consulting](../customer_churn_consulting), where the data actually supports them.
+> **On SaaS metrics:** this is *transactional retail*, not a subscription book, so I don't fake MRR/ARR here. But the engines a SaaS/product team runs on — **cohort retention curves, revenue concentration, RFM/segment value, and experiment design** — are exactly what's built below, on the same methods. The subscription-native metrics (MRR, ARR, revenue churn, LTV) live in the sister project, [customer-churn-consulting](https://github.com/akansha0724/customer-churn-consulting), where the data actually supports them.
 
-**Stack:** Python (pandas, scikit-learn, scipy, seaborn) · Streamlit (live dashboard) · MySQL · A/B testing · cohort & retention analytics
+**Stack:** Python (pandas, scikit-learn, scipy, seaborn) · Streamlit (interactive dashboard) · MySQL · A/B testing · cohort & retention analytics
 
 ## Headline findings
 
@@ -38,8 +38,8 @@ This is the product/growth-analytics job at a consumer company (Flipkart, Swiggy
 </tr>
 </table>
 
-## Live dashboard
-`streamlit run app.py` launches an interactive dashboard (KPIs, segment explorer, revenue trend, cohort heatmap) reading the summary tables in `reports/`. It's built to deploy free on **Streamlit Community Cloud** — the clickable BI layer a recruiter can open, not a static repo.
+## Interactive dashboard
+`streamlit run app.py` launches an interactive dashboard (KPIs, segment explorer, revenue trend, cohort heatmap). It reads only the small summary tables committed in `reports/`, so it runs without the raw data and can be deployed free on **Streamlit Community Cloud** as-is.
 
 ## Honest notes
 - **The A/B test is *simulated*** — Online Retail II has no randomised arms. Every step (power analysis, sizing, two-proportion test, peeking simulation) is the real workflow; only the assignment is synthetic, and the assumed reactivation rate is a documented parameter in [src/ab_test.py](src/ab_test.py).
